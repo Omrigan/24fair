@@ -1,0 +1,37 @@
+.enter{
+    color: #b1091d;
+}
+.answer{
+    background-color: #0d77a9;
+    border-radius: 10px;
+    color: #ffffff;
+    font: bold;
+    height: 150px;
+    padding: 5px;
+}
+.answer a{
+    color: #000000;
+
+}
+.time h1{
+    background-color: #0d77a9;
+    color: #ffffff;
+    border-radius: 10px;
+}
+.red{
+    color: #ca0000;
+}
+.program{
+
+}
+body {
+    background: url("http://kja.startravel.ru/sites/all/themes/uworld/images/stars_html_bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.text {
+    font-size: 12pt;
+    font-family: "Trebuchet MS",Verdana,Arial,sans-serif;
+}
+.header h3
+{
+    font: 20em;
+}
