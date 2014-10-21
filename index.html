@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <meta name="keywords" content=""/>
     <!-- styles -->
-    <link href="/css/main.css" rel="stylesheet">
+
 
     <!-- Fav and touch icons -->
     <link rel="shortcut icon" href="/favicon.ico">
@@ -22,7 +22,6 @@
     <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="/libs/jquery/dist/jquery.min.js"><\/script>')</script>
     <link href="/libs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="/libs/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
@@ -31,6 +30,7 @@
     <script src="/js/main.js"></script>
     <link rel="stylesheet" type="text/css" href="/libs-my/highslide/highslide.css"/>
 
+    <link href="/css/main.css" rel="stylesheet">
     <script type="text/javascript">
         hs.registerOverlay({
             html: '<div class="closebutton" onclick="return hs.close(this)" title="Закрыть"></div>',
@@ -45,149 +45,158 @@
 
 <body>
 
-<header id="top" class="navbar navbar-static-top navbar-inverse" role="banner">
-    <div class="container">
-        <div class="navbar-header">
-            <a class="navbar-brand" href="http://kja.startravel.ru/">Star Travel</a>
-        </div>
-        <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
-            <ul class="nav navbar-nav">
-                <li>
-                    <a href="">О выставке</a>
-                </li>
-                <li><a href="">Программа</a></li>
-                <li>
-                    <a href="">FAQ</a>
-                </li>
-                <li><a href="">Контакты</a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right"></ul>
-
-        </nav>
-    </div>
-
-</header>
 <!-- Some JavaScript, placed at the end of the document so the pages load faster -->
 <div class="container">
-    <div align="center" class="col-md-12 header">
-        <h3>Красноярск</h3>
+    <div class="row top">
+        <h1 align="center">
+            =====  <b id="days"></b>
+            ========  <b id="hours"></b>
+            ========  <b id="minutes"></b>
+            ========  <b id="secounds"></b>
+            =====
+        </h1>
 
-        <h2>13 ноября 2014</h2>
+        <div align="center" class="col-md-12 header">
+           <b><h1><b class="red">ГЛАВНАЯ</b> ВЫСТАВКА <b class="red">2014</b></h1>
 
-        <h1>Выставка <b class="red">"Международное образование"</b> </h1>
-        <hr>
+            <h2>МЕЖДУНАРОДНОЕ ОБРАЗОВАНИЕ ☆ МИР БЕЗ ГРАНИЦ </h2>
+           </b>
+        </div>
+
+
+        <div class="col-md-6">
+
+        </div>
+        <div class="col-md-6">
+
+            <div class="row">
+                <div class="question col-md-4"><h3 class="red">КОГДА?</h3></div>
+
+                <div class="answer col-md-8"><h1><b>13</b> НОЯБРЯ </h1><br>
+
+                    <h2><b>С 13:00 до 19:00</b></h2></div>
+            </div>
+
+
+            <div class="row">
+                <div class="question col-md-4"><h3 class="red">ГДЕ?</h3></div>
+
+                <div class="answer col-md-8">
+                    <h3>Красноярск</h3>
+
+                    <h2>КДЦ "ОСОБНЯК"</h2>
+                    <h4 style="font: 16pt  bold sans-serif">остановка "Гостиница "Октябрьская"</h4>
+
+                    <h2 style="font: 22pt sans-serif"><b>ул. Каратанова, 11</b></h2></div>
+            </div>
+
+            <div class="row">
+                <div class="question col-md-4"><h3 class="red">ДЛЯ КОГО?</h3></div>
+
+                <div class="answer col-md-8"><h4>Для молодежи, студентов, школьников и их родителей, желающих узнать о
+                    возможностях обучения за
+                    рубежом</h4></div>
+            </div>
+
+        </div>
     </div>
-    <div align="center" class="col-md-3 time">
-        <h1 id="days"></h1>
-        дней
+    <div class="row description">
+
+        <div class="col-md-6">
+            <h2>=== ПОДРОБНЕЕ О ВЫСТАВКЕ ===</h2>
+            <ul style='list-style-type: "★" '>
+                <li>Выставка будет интересна как школьникам и студентам, так и их родителям и даже профессионалам нашего
+                    города.
+                </li>
+                <li> На выставке будут представлены все виды образовательных программ: среднее образование, высшее
+                    образование -
+                    бакалавриат,
+                    магистратура, MBA, а также различные языковые курсы в лингвистических центрах и лагерях.
+                </li>
+                <li>
+                    Посетители выставки смогут получить подробные консультации непосредственно от представителей учебных
+                    заведений и
+                    подобрать оптимальную программу обучения.
+                </li>
+            </ul>
+            <div class="col-md-12" align="center">
+                <h1 class="enter">Вход свободный!</h1>
+            </div>
+        </div>
+        <div class="col-md-6">
+
+            <div class="row">
+                <div class="question col-md-4"><h3 class="red">КТО?</h3></div>
+
+                <div class="answer col-md-8"><b>КОМПАНИЯ <a href="http://kja.startravel.ru">STAR TRAVEL</a> И ПАРТНЕРЫ:
+                    KAPLAN, THOMPSON
+                    RIVERS UNIVERSITY, SMG, ПРАЖСКИЙ ОБРАЗОВАТЕЛЬНЫЙ ЦЕНТР, MALVERN HOUSE, CLUBCLASS, WESTBOURN SCHOOL,
+                    CENTENNIAL COLLEGE, ILAC И ДР. </b>
+                </div>
+            </div>
+
+        </div>
+
+
     </div>
-    <div align="center" class="col-md-3 time">
-        <h1 id="hours"></h1>
-        часов
+    <div class="row bottom">
+
+        <div class="col-md-8">
+
+            <h2 class="red">=== ПРОГРАММА СЕМИНАРОВ И МЕРОПРИЯТИЙ ===</h2>
+            <b class="red">10:00 - 13:00</b> Конкурс на соискание стипендии в лучших частных школах Англии и США.
+            Конкурс проводится среди школьников 7, 8, 9, 10 классов. <br>
+            <b class="red">13:30</b> Семинар «Специальные курсы для продвинутых школьников на базе зарубежных
+            университетов
+            «Английский +»: бизнес-курсы, профориентация, экскурсии по университетам, погружение в университетскую
+            жизнь»
+            (Кипр, Ирландия, США, Канада).<br>
+            <b class="red">15:00</b> Для участников «Work&Travel 2015» презентация образовательных программ
+            и розыгрыш дополнительных скидок. <br>
+            <b class="red">15:40</b> Семинар «Стипендии и возможность бесплатного образования для бакалавров и
+            магистров за рубежом». <br>
+            <b class="red">17:00</b> Семинар «Программы школьного обмена». Государственные и частные школы США.
+            Альтернатива «FLEX». <br>
+            <b class="red">18:00</b> Семинар «Как поступить в зарубежный вуз на программы бакалавриата и магистратуры
+            с любым уровнем английского языка». <br>
+            <hr>
+
+            <h4 align="center">☆ Каждый пришедший на выставку получает купон на <b class="red"> 2000 руб.</b> - на краткосрочные
+                языковые
+                курсы (от 2-х до 11-ти недель)
+                и <b class="red">5000 руб.</b> - на программы долгосрочных языковых курсов (12 недель и более),
+                программы подготовки к поступлению в зарубежный вуз и программы высшего образования за рубежом </h4>
+        </div>
+        <div class="col-md-4 ">
+            <img src="img/girl.jpg" class="girl-photo">
+        </div>
     </div>
-    <div align="center" class="col-md-3 time">
-        <h1 id="minutes"></h1>
-        минут
+    <div class="row description">
+        <div class="col-md-12">
+            <h3>Как добраться?</h3>
+
+            <div class="col-md-6 hidden-phone">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2230.386830098052!2d92.89114109999997!3d56.01197310000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5cd7ae35142c5979%3A0x49e50fce4bf5cf57!2z0YPQuy4g0JrQsNGA0LDRgtCw0L3QvtCy0LAsIDExLCDQmtGA0LDRgdC90L7Rj9GA0YHQuiwg0JrRgNCw0YHQvdC-0Y_RgNGB0LrQuNC5INC60YDQsNC5LCA2NjAwNDk!5e0!3m2!1sru!2sru!4v1413374473293"
+                        width="400" height="300" frameborder="0" style="border:0"></iframe>
+            </div>
+            <div class="col-md-6">
+                <h4>За дополнительной информацией вы можете обратиться по тел: 2595979, 2786611, <br>
+                    Оставляйте заявку на участие в выставке. </h4>
+
+                <p><a href="http://kja.startravel.ru/request_for_fair"
+                      style="background-color: rgb(255, 255, 255); color: rgb(0, 88, 127); line-height: 20px; text-align: center;"><img
+                        alt="" src="http://kja.startravel.ru/sites/default/files/button.png"
+                        style="width: 200px; height: 50px;">
+                </a></p>
+            </div>
+        </div>
+
+
     </div>
-    <div align="center" class="col-md-3 time">
-        <h1 class="time" id="secounds"></h1>
-        секунд
-    </div>
+
+
 </div>
-<div class="container">
-    <div align="center" class="col-md-3">
-        <h3>Где?</h3>
 
-        <p class="answer">Культурно-деловой центр "ОСОБНЯК" <br>
-            (остановка "Гостиница "Октябрьская", ул. Каратанова, 11) <br>
-            VIII Всероссийская выставка международного образования. </p>
-    </div>
-    <div align="center" class="col-md-3">
-        <h3>Когда?</h3>
-
-        <p class="answer">13 ноября <br>
-            С 13:00 до 19:00.</p>
-    </div>
-    <div align="center" class="col-md-3">
-        <h3>Кто?</h3>
-
-        <p class="answer">Компания <a href="http://kja.startravel.ru">Star Travel</a>  и партнеры: Kaplan, Thompson Rivers University, SMG, Пражский образовательный центр, Malvern House, Clubclass, Westbourn school, Centennial College, ILAC и др.</p>
-    </div>
-    <div align="center" class="col-md-3">
-        <h3>Для кого?</h3>
-
-        <p class="answer">Для молодежи, студентов, школьников и их родителей, желающих узнать о возможностях обучения за
-            рубежом</p>
-    </div>
-</div>
-<div class="container text">
-    <div class="col-md-6">
-        <h2>О выставке</h2>
-
-        <p>Выставка будет интересна как школьникам и студентам, так и их родителям и даже профессионалам нашего города.
-            На выставке будут представлены все виды образовательных программ: среднее образование, высшее образование -
-            бакалавриат,
-            магистратура, MBA, а также различные языковые курсы в лингвистических центрах и лагерях.
-            Посетители выставки смогут получить подробные консультации непосредственно от представителей учебных
-            заведений и
-            подобрать оптимальную программу обучения.</p>
-    </div>
-    <div class="col-md-6">
-        <h2>Что можно сделать на выставке?</h2>
-        <ul class="what-to-do">
-            <li>Записаться в летние языковые лагеря (на лето 2015)</li>
-            <li>Пройти тестирование по английскому языку</li>
-            <li>Лично проконсультироваться с представителями школ и университетов</li>
-            <li>Пообщаться с носителями языка</li>
-        </ul>
-    </div>
-    <div class="col-md-12" align="center">
-        <h1 class="enter">Вход свободный!</h1>
-    </div>
-    <div class="col-md-12 program">
-        <h2>Программа выставки:</h2>
-        <b class="red">10:00 - 13:00</b> Конкурс на соискание стипендии в лучших частных школах Англии и США.
-        Конкурс проводится среди школьников 7, 8, 9, 10 классов. <br>
-        <b class="red">13:30</b> Семинар «Специальные курсы для продвинутых школьников на базе зарубежных университетов
-        «Английский +»: бизнес-курсы, профориентация, экскурсии по университетам, погружение в университетскую жизнь»
-        (Кипр, Ирландия, США, Канада).<br>
-        <b class="red">15:00</b> Для участников «Work&Travel 2015» презентация образовательных программ
-        и розыгрыш дополнительных скидок. <br>
-        <b class="red">15:40</b> Семинар «Стипендии и возможность бесплатного образования для бакалавров и
-        магистров за рубежом». <br>
-        <b class="red">17:00</b> Семинар «Программы школьного обмена». Государственные и частные школы США.
-        Альтернатива «FLEX». <br>
-        <b class="red">18:00</b> Семинар «Как поступить в зарубежный вуз на программы бакалавриата и магистратуры
-        с любым уровнем английского языка». <br>
-        <hr>
-    </div>
-    <div class="col-md-12 bottom" align="center">
-        <h4>☆ Каждый пришедший на выставку получает купон на <b class="red"> 2000 руб.</b> - на краткосрочные языковые
-            курсы (от 2-х до 11-ти недель)
-            и <b class="red">5000 руб.</b> - на программы долгосрочных языковых курсов (12 недель и более),
-            программы подготовки к поступлению в зарубежный вуз и программы высшего образования за рубежом </h4>
-        <hr>
-        <h3 align="center">Как добраться?</h3>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2230.386830098052!2d92.89114109999997!3d56.01197310000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5cd7ae35142c5979%3A0x49e50fce4bf5cf57!2z0YPQuy4g0JrQsNGA0LDRgtCw0L3QvtCy0LAsIDExLCDQmtGA0LDRgdC90L7Rj9GA0YHQuiwg0JrRgNCw0YHQvdC-0Y_RgNGB0LrQuNC5INC60YDQsNC5LCA2NjAwNDk!5e0!3m2!1sru!2sru!4v1413374473293" width="600" height="450" frameborder="0" style="border:0"></iframe>
-        <h4>За дополнительной информацией вы можете обратиться по тел: 2595979, 2786611, <br>
-
-            Оставляйте заявку на участие в выставке. </h4>
-
-            <p><a href="http://kja.startravel.ru/request_for_fair"
-                  style="background-color: rgb(255, 255, 255); color: rgb(0, 88, 127); line-height: 20px; text-align: center;"><img
-                    alt="" src="http://kja.startravel.ru/sites/default/files/button.png"
-                    style="width: 200px; height: 50px;">
-
-            </a></p>
-
-    </div>
-
-
-</div>
-</div>
-<footer class="modal-footer">
-    Copyright © StarTravel 2014 год. Все права защищены.
-</footer>
 <!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID. -->
 <!--
 <script>

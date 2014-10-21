@@ -1,18 +1,65 @@
+body
+{
+    background-color: #3c637e;
+}
 .enter{
-    color: #b1091d;
+    color: #ffffff;
+}
+.question
+{
+
 }
 .answer{
-    background-color: #0d77a9;
+
+    background-color: #2a5371;
     border-radius: 10px;
     color: #ffffff;
     font: bold;
-    height: 150px;
-    padding: 5px;
+
+    margin: 10px 0 10px 0;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.girl-photo
+{
+    margin-top: 10px;
+}
+.answer h1
+{
+    margin: 0;
+}
+.answer h2
+{
+    margin: 0;
+}
+.answer h3
+{
+    margin: 0;
+}
+.answer h4
+{
+    margin: 0;
 }
 .answer a{
     color: #000000;
 
 }
+.description
+{
+   padding-top: 10px;
+    background-image: url("../img/blue-fon.jpg");
+      color: #ffffff;
+}
+.description .answer {
+    background-color: #ffffff;
+    color: #2a5371;
+}
+.description .red
+{
+    color: #ffffff;
+}
+
 .time h1{
     background-color: #0d77a9;
     color: #ffffff;
@@ -21,11 +68,17 @@
 .red{
     color: #ca0000;
 }
-.program{
-
+.bottom{
+    background-color: #e4e4e4;
+    color: #3c637e;
 }
-body {
-    background: url("http://kja.startravel.ru/sites/all/themes/uworld/images/stars_html_bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+.top
+{
+
+    color: #4e7188;
+}
+.top {
+    background-image: url("../img/girl-phone.jpg");
 }
 .text {
     font-size: 12pt;
