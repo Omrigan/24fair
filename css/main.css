@@ -4,10 +4,12 @@ body
 }
 .enter{
     color: #ffffff;
+    text-align: left;
 }
 .question
 {
-
+    margin: auto;
+    text-align: right;
 }
 .answer{
 
@@ -15,7 +17,7 @@ body
     border-radius: 10px;
     color: #ffffff;
     font: bold;
-
+    height: 140px;
     margin: 10px 0 10px 0;
     text-align: right;
     padding-top: 10px;
