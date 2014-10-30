@@ -1,16 +1,19 @@
+@blue: #2a5371;
 body {
   background-image: url("../img/blue-fon.jpg");
 }
+
 .enter {
   color: #ffffff;
   text-align: left;
 }
+
 .question {
   margin: auto;
   text-align: right;
 }
 .answer {
-  background-color: #2a5371;
+  background-color: @blue;
   border-radius: 10px;
   color: #ffffff;
   font: bold;
@@ -20,69 +23,92 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 .girl-photo {
   margin-top: 10px;
 }
+
 .answer h1 {
   margin: 0;
 }
+
 .answer h2 {
   margin: 0;
 }
+
 .answer h3 {
   margin: 0;
 }
+
 .answer h4 {
   margin: 0;
 }
+
 .answer a {
   color: #000000;
+
 }
-@media (min-width: 992px) {
-  .header h1 {
-    font-size: 45pt;
+@media (min-width: 992px){
+  .header{
+    h1{
+      font-size: 45pt;
+    }
+    h2
+    {
+      font-size: 30pt;
+    }
   }
-  .header h2 {
-    font-size: 30pt;
-  }
+
 }
+
 .description {
   padding-top: 10px;
   background-image: url("../img/blue-fon.jpg");
   color: #ffffff;
 }
+
 .description .answer {
   background-color: #ffffff;
-  color: #2a5371;
+  color: @blue;
 }
+
 .description .red {
   color: #ffffff;
 }
+
 .red {
   color: #ca0000;
 }
+
 .bottom {
   background-color: #e4e4e4;
   color: #3c637e;
 }
+
 .top {
   color: #4e7188;
   padding: auto;
+
   background-image: url("../img/girl-phone.jpg");
 }
+
 .text {
   font-size: 12pt;
   font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
 }
+
 .time {
   text-align: center;
 }
+
 .header h3 {
   font: 20em;
 }
+
 .bottom a {
   font: "Helvetica Neue", Helvetica, Arial, bold, sans-serif;
 }
+
 .header {
-  text-shadow: #ffffff 1px 0px, #ffffff 1px 1px, #ffffff 0px 1px, #ffffff -1px 1px, #ffffff -1px 0px, #ffffff -1px -1px, #ffffff 0px -1px, #ffffff 1px -1px;
+  text-shadow: white 1px 0px, white 1px 1px, white 0px 1px, white -1px 1px, white -1px 0px, white -1px -1px, white 0px -1px, white 1px -1px;
 }
