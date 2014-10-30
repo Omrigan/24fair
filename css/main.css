@@ -46,6 +46,12 @@ body {
     font-size: 30pt;
   }
 }
+.container-fluid {
+  padding: 0;
+}
+.row {
+  margin: 0;
+}
 .description {
   padding-top: 10px;
   background-image: url("../img/blue-fon.jpg");
