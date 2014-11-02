@@ -35,6 +35,14 @@ body {
 .answer h4 {
   margin: 0;
 }
+.share {
+  border-radius: 0 10px 10px 0;
+  padding-bottom: 30px;
+  background-color: #e4e4e4;
+}
+.stButton {
+  height: auto;
+}
 .answer a {
   color: #000000;
 }
