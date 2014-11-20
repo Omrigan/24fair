@@ -14,7 +14,7 @@ body {
   border-radius: 10px;
   color: #ffffff;
   font: bold;
-  height: 140px;
+  min-height: 140px;
   margin: 10px 0 10px 0;
   text-align: right;
   padding-top: 10px;
@@ -22,18 +22,6 @@ body {
 }
 .girl-photo {
   margin-top: 10px;
-}
-.answer h1 {
-  margin: 0;
-}
-.answer h2 {
-  margin: 0;
-}
-.answer h3 {
-  margin: 0;
-}
-.answer h4 {
-  margin: 0;
 }
 .share {
   border-radius: 0 10px 10px 0;
@@ -52,6 +40,11 @@ body {
   }
   .header h2 {
     font-size: 30pt;
+  }
+}
+@media (max-width: 200px) {
+  body {
+    font-size: 10px;
   }
 }
 .container-fluid {
